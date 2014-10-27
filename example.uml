@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_FpRCMF3gEeSfGveJ91_TAg" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_FpRCMV3gEeSfGveJ91_TAg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_FyWswF3gEeSfGveJ91_TAg" name="Activity1"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_H8j6gF3gEeSfGveJ91_TAg" name="Attore"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_if-SUF3hEeSfGveJ91_TAg" name="casa"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kD-bsF3hEeSfGveJ91_TAg" name="A_attore_casa" memberEnd="_kD-bsV3hEeSfGveJ91_TAg _kD-btF3hEeSfGveJ91_TAg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kD-bsV3hEeSfGveJ91_TAg" name="attore" type="_H8j6gF3gEeSfGveJ91_TAg" association="_kD-bsF3hEeSfGveJ91_TAg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kD-bsl3hEeSfGveJ91_TAg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kD-bs13hEeSfGveJ91_TAg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kD-btF3hEeSfGveJ91_TAg" name="casa" type="_if-SUF3hEeSfGveJ91_TAg" association="_kD-bsF3hEeSfGveJ91_TAg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kD-btV3hEeSfGveJ91_TAg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kD-btl3hEeSfGveJ91_TAg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
