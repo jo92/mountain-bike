@@ -2,5 +2,4 @@ mountain-bike
 =============
 
 Salve...!
-Sono accettate le idee che uno vorrebbe realizzare...:)
-Grazie a tutti..!!!
+Ho inserito l'ultimo lavoro eseguito in gruppo...con la relazione effettuata da giorgio.....!!!
